@@ -1,0 +1,21 @@
+{
+    "MD013": false,
+    "MD033": {
+		"allowed_elements": ["br", "p", "img"]
+	},
+	"MD029": {
+		"style": "ordered"
+	},
+	"MD044": {
+		"names": [
+			"CommonMark",
+			"Ctrl",
+			"JavaScript",
+			"Markdown",
+			"markdownlint",
+			"Node.js",
+			"Shift",
+			"Visual Studio Code"
+		]
+	}
+}
