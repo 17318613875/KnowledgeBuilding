@@ -87,6 +87,16 @@ HTML元素事件由浏览器内在产生，当事件发生时向该事件订阅�
         父元素中所有的冒泡型事件（如果有）自下而上地执行;
 * DOM事件处理：
     ![事件处理](../../.source/事件处理.png)
+* 事件对象：
+    事件对象     |描述
+    ------------|-------------
+    event.target|指的是触发事件的那个节点，也就是事件最初发生的节点。
+    event.target.matches|可以对关键节点进行匹配，来执行相应操作。
+    event.currentTarget|指的是正在执行的监听函数的那个节点。
+    event.isTrusted|表示事件是否是真实用户触发。
+    event.preventDefault()|取消事件的默认行为。
+    event.stopPropagation()|阻止事件的派发（包括了捕获和冒泡）。
+    event.stopImmediatePropagation()|阻止同一个事件的其他监听函数被调用。
 
 ```javascript
     /**
