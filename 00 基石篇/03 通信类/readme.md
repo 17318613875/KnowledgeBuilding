@@ -11,4 +11,6 @@
 ![请求消息](../../.source/HTTP-请求消息.png)
 ![响应消息](../../.source/HTTP-响应消息.jpg)
 
-## 
+## WebRTC
+
+网页即时通信(Web Real-Time Communication), 是一个支持网页浏览器进行实时语音对话或视频对话的API。
