@@ -16,7 +16,7 @@ Function    |function   |"function"     |
 内置对象    |补充描述
 ------------|----------
 Date        |1. getFullYear;2. getMonth() + 1;3. getDay;4. getHours;5. getMinutes;6. getSeconds; 7. getMilliseconds;
-Array       |1. concat:数组拼接;2. join:数组连接;3. pop:移除最后一个;4. shift:移除第一个;5. slice:拷贝指定范围元素;6. push:新添元素;7. sort:数组排序;8. reverse:反转数组;
+Array       |1. concat: 数组拼接;2. join: 数组连接;3. pop: 移除最后一个;4. shift:移除第一个;5. slice:拷贝指定范围元素;6. push:新添元素;7. sort:数组排序;8. reverse:反转数组;
 JSON        |
 RegExp      |
 String      |1. charAt:返回指定索引的位置的字符;2. match：正则匹配;3. replace：替换;4. search：指明是否存在相应的匹配;5. slice：返回字符段片段;6. split：字符串拆分;7. substr：字符串截取;8. substring：取得指定长度内的字符串;9. toUpperCase：大写转化;10. toLowerCase：小写转化;
@@ -31,7 +31,7 @@ Global      |1. Math;2. escape;3. isNaN;4. parseInt;
 
 ## Event-Loop
 
-![Event-Loop](../../.source/Event-Loop.png "Event-Loop")
+![Event-Loop](../.source/Event-Loop.png "Event-Loop")
 
 异步任务|#                      |浏览器  |Node
 -------|-----------------------|--------|---------
@@ -46,7 +46,7 @@ Global      |1. Math;2. escape;3. isNaN;4. parseInt;
 
 ## 函数&&原型链
 
-![原型链](../../.source/原型链.png "原型链")
+![原型链](../.source/原型链.png "原型链")
 
 ## 作用域&&上下文
 
@@ -86,7 +86,7 @@ HTML元素事件由浏览器内在产生，当事件发生时向该事件订阅�
         目标元素的冒泡型事件（如果有）;<br/>
         父元素中所有的冒泡型事件（如果有）自下而上地执行;
 * DOM事件处理：
-    ![事件处理](../../.source/事件处理.png)
+    ![事件处理](../.source/事件处理.png)
 * 事件对象：
     事件对象     |描述
     ------------|-------------
@@ -125,7 +125,7 @@ HTML元素事件由浏览器内在产生，当事件发生时向该事件订阅�
 
 DOM 定义了访问HTML文档的一套属性、方法和事件标准，是HTML与脚本语言沟通的桥梁。
 
-![DOM对象](../../.source/DOM对象.png)
+![DOM对象](../.source/DOM对象.png)
 
 DOM对象     |描述
 -----------|--------
