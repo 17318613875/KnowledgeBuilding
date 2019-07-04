@@ -10,14 +10,14 @@ Safari|webkit|Nitro（4-)
 Firefox|Gecko|SpiderMonkey（1.0-3.0）/ TraceMonkey（3.5-3.6）/ JaegerMonkey（4.0-）
 Opera|Presto->blink|Linear A（4.0-6.1）/ Linear B（7.0-9.2）/ Futhark（9.5-10.2）/ Carakan（10.5-）
 
-![Js引擎](../../.source/Js引擎.jpeg "Js引擎")
+![Js引擎](../../source/Js引擎.jpeg "Js引擎")
 
 ## 语法检查
 
 1. 词法分析: 解释器先把JavaScript代码（字符串）的字符流按照ECMAScript标准转换为记号流。
 2. 语法分析: 语法分析器在经过词法分析后，将记号流按照ECMAScript标准把词法分析所产生的记号生成语法树，一个由元素逐级嵌套所组成的代表了程序语法结构的树--抽象语法树（Abstract Syntax Tree，AST）。
 
-![v8引擎](../../.source/v8引擎.png "v8引擎")
+![v8引擎](../../source/v8引擎.png "v8引擎")
 
 ## 运行阶段
 
@@ -43,7 +43,7 @@ this        |this Value：content Object
     * 函数声明: 将 function 声明的函数的名称和函数体都提前。
     变量声明 > 函数声明 > 属性填充
 
-    ![声明提前](../../.source/声明提前.png "声明提前")
+    ![声明提前](../../source/声明提前.png "声明提前")
 
 2. 创建阶段:
     1. this 值的决定:
